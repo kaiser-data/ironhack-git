@@ -1,4 +1,10 @@
-/* ...existing code... */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f6f8fa;
+}
+
 body[data-theme="dark"] {
   background: #181a1b;
   color: #f6f8fa;
@@ -24,4 +30,3 @@ body[data-theme="dark"] #theme-toggle {
 body[data-theme="dark"] h1 {
   color: #fff176;
 }
-/* ...existing code... */

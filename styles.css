@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{font-family:system-ui,sans-serif;margin:0;padding:2rem;background:#f6f8fa;}
 header{background:#222;padding:1rem 0;}
 nav ul{list-style:none;display:flex;justify-content:center;margin:0;padding:0;}
@@ -13,3 +14,37 @@ body[data-theme="dark"] nav ul li a{color:#ffb74d;}
 body[data-theme="dark"] nav ul li a:hover{color:#fff176;}
 body[data-theme="dark"] #theme-toggle{background:#333;color:#ffb74d;}
 body[data-theme="dark"] h1{color:#fff176;}
+=======
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f6f8fa;
+}
+
+body[data-theme="dark"] {
+  background: #181a1b;
+  color: #f6f8fa;
+}
+
+body[data-theme="dark"] header {
+  background: #222;
+}
+
+body[data-theme="dark"] nav ul li a {
+  color: #ffb74d;
+}
+
+body[data-theme="dark"] nav ul li a:hover {
+  color: #fff176;
+}
+
+body[data-theme="dark"] #theme-toggle {
+  background: #333;
+  color: #ffb74d;
+}
+
+body[data-theme="dark"] h1 {
+  color: #fff176;
+}
+>>>>>>> 61a149af63c9e8f9b0216ce4150163b7d4f6cb2c

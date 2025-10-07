@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -51,12 +52,16 @@ nav ul li a:hover {
   color: #ff9800;
 }
 
+=======
+/* ...existing code... */
+>>>>>>> main
 body[data-theme="dark"] {
   background: #181a1b;
   color: #f6f8fa;
 }
 
 body[data-theme="dark"] header {
+<<<<<<< HEAD
   background: #111;
 }
 
@@ -68,3 +73,25 @@ body[data-theme="dark"] #theme-toggle {
   background: #444;
   color: #ff9800;
 }
+=======
+  background: #222;
+}
+
+body[data-theme="dark"] nav ul li a {
+  color: #ffb74d;
+}
+
+body[data-theme="dark"] nav ul li a:hover {
+  color: #fff176;
+}
+
+body[data-theme="dark"] #theme-toggle {
+  background: #333;
+  color: #ffb74d;
+}
+
+body[data-theme="dark"] h1 {
+  color: #fff176;
+}
+/* ...existing code... */
+>>>>>>> main
